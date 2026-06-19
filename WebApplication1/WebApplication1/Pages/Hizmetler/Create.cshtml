@@ -1,0 +1,20 @@
+﻿@page
+@model WebApplication1.Pages.Hizmetler.CreateModel
+@{
+    ViewData["Title"] = "Yeni Hizmet";
+}
+
+<h2>Yeni Hizmet Ekle</h2>
+
+<form method="post" class="w-50">
+    <div class="mb-3">
+        <label asp-for="YeniHizmet.HizmetAdi" class="form-label">Hizmet Adı</label>
+        <input asp-for="YeniHizmet.HizmetAdi" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label asp-for="YeniHizmet.KisaAciklama" class="form-label">Kısa Açıklama</label>
+        <textarea asp-for="YeniHizmet.KisaAciklama" class="form-control" rows="3" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+    <a asp-page="Index" class="btn btn-secondary">İptal</a>
+</form>

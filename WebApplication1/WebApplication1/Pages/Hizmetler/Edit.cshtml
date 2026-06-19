@@ -1,0 +1,22 @@
+﻿@page "{id:int}"
+@model WebApplication1.Pages.Hizmetler.EditModel
+@{
+    ViewData["Title"] = "Hizmet Düzenle";
+}
+
+<h2>Hizmet Düzenle</h2>
+
+<form method="post" class="w-50">
+    <input type="hidden" asp-for="GuncelHizmet.Id" />
+
+    <div class="mb-3">
+        <label asp-for="GuncelHizmet.HizmetAdi" class="form-label">Hizmet Adı</label>
+        <input asp-for="GuncelHizmet.HizmetAdi" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label asp-for="GuncelHizmet.KisaAciklama" class="form-label">Kısa Açıklama</label>
+        <textarea asp-for="GuncelHizmet.KisaAciklama" class="form-control" rows="3" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Güncelle</button>
+    <a asp-page="Index" class="btn btn-secondary">İptal</a>
+</form>

@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    body{
+        background: url("https://i.hizliresim.com/gikqq32.jpg");
+    }
+</style>
+<style>
+    .form-control::placeholder {
+        color: #7ab3ef !important;
+    }
+</style>
+<div class="container-fluid p-0">
+    <div class="modal-dialog">
+        <div class="modal-content">
+                <h2 class="mb-1 text-sm-center text-white">Oyuncu Ekle</h2>
+            <div class="modal-body mb-2 border-primary">
+                <form method="post">
+                    <div class="form-group" id="empId">
+                        <label class="text-info">ID</label>
+                        <input class="form-control bg-dark border-info mb-3" id="GamerId" disabled="disabled" />
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label class="text-info">Kullanıcı Adı</label>
+                        <input class="form-control bg-dark text-light border-info mb-3"
+                               placeholder="Enter Name" id="Name" />
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label class="text-info">Oyun Adı</label>
+                        <input class="form-control bg-dark text-light border-info mb-3"
+                               placeholder="Enter Game" id="Game" />
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label class="text-info" >Kaç Saat Oynadın</label>
+                        <input class="form-control bg-dark text-light border-info mb-3"
+                               placeholder="Enter Hour" id="Hour" />
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-info" onclick="AddGamer();" id="AddGamer">Kaydet</button>
+                <br />
+            </div>
+        </div>
+    </div>
+    <h2 class="mb-3 text-xl-center text-white">Kayıtlı Oyuncular</h2>
+    <div class="table-responsive">
+        <table class="table table-dark table-striped table-hover table-bordered">
+            <thead class="table-primary">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Game</th>
+                    <th>Hour</th>
+                </tr>
+            </thead>
+            <tbody id="table_data">
+            </tbody>
+        </table>
+        <div>
+            <input type="hidden" id="urlHomeData" value="@Url.Action("GamerList", "Gamer")" />
+        </div>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/javascript.js"></script>

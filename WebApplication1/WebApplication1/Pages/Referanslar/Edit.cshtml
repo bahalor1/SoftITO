@@ -1,0 +1,22 @@
+﻿@page "{id:int}"
+@model WebApplication1.Pages.Referanslar.EditModel
+@{
+    ViewData["Title"] = "Referans Düzenle";
+}
+
+<h2>Referans Düzenle</h2>
+
+<form method="post" class="w-50">
+    <input type="hidden" asp-for="GuncelReferans.Id" />
+
+    <div class="mb-3">
+        <label asp-for="GuncelReferans.MusteriAdi" class="form-label">Müşteri Adı</label>
+        <input asp-for="GuncelReferans.MusteriAdi" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label asp-for="GuncelReferans.Sirket" class="form-label">Şirket</label>
+        <input asp-for="GuncelReferans.Sirket" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-success">Güncelle</button>
+    <a asp-page="Index" class="btn btn-secondary">İptal</a>
+</form>

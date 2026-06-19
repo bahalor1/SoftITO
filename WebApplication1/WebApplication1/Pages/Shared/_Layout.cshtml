@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Admin Panel</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark min-vh-100">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white">
+                    <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-info text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline">Yönetim Paneli</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                        <li class="nav-item">
+                            <a asp-page="/Duyurular/Index" class="nav-link align-middle px-0 text-white">
+                                <span class="ms-3 d-none d-sm-inline">Duyurular</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-page="/Hizmetler/Index" class="nav-link align-middle px-0 text-white">
+                                <span class="ms-3 d-none d-sm-inline">Hizmetler</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-page="/Referanslar/Index" class="nav-link align-middle px-0 text-white">
+                                <span class="ms-3 d-none d-sm-inline">Referanslar</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col py-3">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

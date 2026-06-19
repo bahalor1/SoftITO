@@ -1,0 +1,370 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\areas\\admin\\controllers\\raporlarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\areas\\admin\\controllers\\raporlarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\areas\\admin\\controllers\\kitaplarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\areas\\admin\\controllers\\kitaplarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\areas\\admin\\views\\yorumlar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\areas\\admin\\views\\yorumlar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\areas\\admin\\views\\kitaplar\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\areas\\admin\\views\\kitaplar\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\migrations\\20260611084100_kategoriisimduzeltme.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\migrations\\20260611084100_kategoriisimduzeltme.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\migrations\\20260611065743_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\migrations\\20260611065743_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\migrations\\20260611065743_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\migrations\\20260611065743_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\areas\\admin\\views\\raporlar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\areas\\admin\\views\\raporlar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\areas\\admin\\models\\reportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\areas\\admin\\models\\reportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\models\\yorum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\models\\yorum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\models\\kategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\models\\kategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|c:\\ito\\k\u00FCt\u00FCphaneuygulamas\u0131\\k\u00FCt\u00FCphaneuygulamas\u0131\\models\\yazar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26130F3-CADE-608F-43AF-92DBB09C1249}|K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131.csproj|solutionrelative:k\u00FCt\u00FCphaneuygulamas\u0131\\models\\yazar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KitaplarController.cs",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Controllers\\KitaplarController.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Controllers\\KitaplarController.cs",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Controllers\\KitaplarController.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Controllers\\KitaplarController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwCQAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T12:36:12.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T12:36:09.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Yorumlar\\Index.cshtml",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Yorumlar\\Index.cshtml",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Yorumlar\\Index.cshtml",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Yorumlar\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T12:36:07.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Kitaplar\\Details.cshtml",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Kitaplar\\Details.cshtml",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Kitaplar\\Details.cshtml",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Kitaplar\\Details.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T12:36:03.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAwwI8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T12:36:00.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260611084100_KategoriIsimDuzeltme.Designer.cs",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\20260611084100_KategoriIsimDuzeltme.Designer.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\20260611084100_KategoriIsimDuzeltme.Designer.cs",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\20260611084100_KategoriIsimDuzeltme.Designer.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\20260611084100_KategoriIsimDuzeltme.Designer.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAwwJIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T12:35:58.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260611065743_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\20260611065743_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\20260611065743_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\20260611065743_InitialCreate.Designer.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\20260611065743_InitialCreate.Designer.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAwwJIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T12:35:56.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RaporlarController.cs",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Controllers\\RaporlarController.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Controllers\\RaporlarController.cs",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Controllers\\RaporlarController.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Controllers\\RaporlarController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIAywBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T12:02:24.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260611065743_InitialCreate.cs",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\20260611065743_InitialCreate.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\20260611065743_InitialCreate.cs",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\20260611065743_InitialCreate.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Migrations\\20260611065743_InitialCreate.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAwwGkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T12:35:43.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T12:24:50.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Yorum.cs",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\Yorum.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\Yorum.cs",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\Yorum.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\Yorum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T12:23:09.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Kategori.cs",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\Kategori.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\Kategori.cs",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\Kategori.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\Kategori.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T12:23:03.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Yazar.cs",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\Yazar.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\Yazar.cs",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\Yazar.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\Yazar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T12:22:59.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Raporlar\\Index.cshtml",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Raporlar\\Index.cshtml",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Raporlar\\Index.cshtml",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Raporlar\\Index.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvyQAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T12:04:34.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "bootstrap-grid.rtl.css.map",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABLIgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-16T12:32:18.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T12:20:25.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvx4AAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T12:27:28.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "bootstrap-grid.css.map",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA7LgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-16T12:32:14.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "bootstrap-grid.min.css.map",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAB+IAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-16T12:32:17.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReportViewModel.cs",
+              "DocumentMoniker": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Models\\ReportViewModel.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Models\\ReportViewModel.cs",
+              "ToolTip": "C:\\ITO\\K\u00FCt\u00FCphaneUygulamas\u0131\\K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Models\\ReportViewModel.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneUygulamas\u0131\\Areas\\Admin\\Models\\ReportViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T12:03:55.236Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1170,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

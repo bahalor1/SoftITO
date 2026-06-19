@@ -1,0 +1,20 @@
+﻿@page
+@model WebApplication1.Pages.Referanslar.CreateModel
+@{
+    ViewData["Title"] = "Yeni Referans";
+}
+
+<h2>Yeni Referans Ekle</h2>
+
+<form method="post" class="w-50">
+    <div class="mb-3">
+        <label asp-for="YeniReferans.MusteriAdi" class="form-label">Müşteri Adı</label>
+        <input asp-for="YeniReferans.MusteriAdi" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label asp-for="YeniReferans.Sirket" class="form-label">Şirket</label>
+        <input asp-for="YeniReferans.Sirket" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+    <a asp-page="Index" class="btn btn-secondary">İptal</a>
+</form>

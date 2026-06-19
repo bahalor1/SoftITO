@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<button class="btn btn-sm btn-primary m-2" id="btnAddGamer">Add Gamer </button>
+
+<table class="table table-bordered">
+    <thead>
+        <tr class="text-center">
+            <th>Id</th>
+            <th>Name</th>
+            <th>Game</th>
+            <th>Hour</th>
+            <th>Operation</th>
+        </tr>
+    </thead>
+    <tbody class="text-center" id="table_data"></tbody>
+</table>
+<br />
+<div class="modal fade modal" id="GamerMadal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="text-info modal-title" id="gamerHeading">Add Gamer</h1>
+
+            </div>
+            <div class="modal-body">
+                <form method="post">
+                    <div class="form-group" id="empId">
+                        <label>Id</label>
+                        <input type="text" class="form-control" id="GamerId" disabled="disabled" />
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Enter Name" class="form-control" id="Name" autocomplete="off" />
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label>Game</label>
+                        <input type="text" placeholder="Enter Game" class="form-control" id="Game" autocomplete="off" />
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label>Hour</label>
+                        <input type="text" placeholder="Enter Hour" class="form-control" id="Hour" autocomplete="off" />
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" onclick="AddGamer();" id="AddGamer">Save</button>
+                <button class="btn btn-warning" onclick="UpdateGamer();" style="display:none" id="btnUpdate">Update</button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <input type="hidden" id="urlGamerData" value="@Url.Action("GamerList", "Gamer")" />
+    </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/custom.js"></script>

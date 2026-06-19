@@ -1,0 +1,134 @@
+﻿@model KütüphaneUygulaması.Areas.Admin.Models.ReportViewModel
+@{
+    ViewData["Title"] = "Raporlar";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid py-4">
+    <h2 class="mb-4">
+        <i class="fas fa-chart-bar me-2"></i>Raporlar
+    </h2>
+
+    <!-- En Çok Yorum Alan Kitaplar -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-primary text-white">
+            <h5 class="mb-0"><i class="fas fa-book me-2"></i>En Çok Yorum Alan Kitaplar (Top 10)</h5>
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover table-striped mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>#</th>
+                            <th>Kitap Adı</th>
+                            <th>Yazar</th>
+                            <th>Kategori</th>
+                            <th class="text-center">Yorum Sayısı</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (!Model.EnCokYorumAlanKitaplar.Any())
+                        {
+                            <tr><td colspan="5" class="text-center text-muted py-3">Henüz veri bulunmuyor.</td></tr>
+                        }
+                        else
+                        {
+                            int sira = 1;
+                            foreach (var kitap in Model.EnCokYorumAlanKitaplar)
+                            {
+                                <tr>
+                                    <td>@sira</td>
+                                    <td>@kitap.KitapAdi</td>
+                                    <td>@kitap.YazarAdi</td>
+                                    <td>@kitap.KategoriAdi</td>
+                                    <td class="text-center"><span class="badge bg-primary">@kitap.YorumSayisi</span></td>
+                                </tr>
+                                sira++;
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Kategoriye Göre Kitap Sayısı -->
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0"><i class="fas fa-tags me-2"></i>Kategoriye Göre Kitap Sayısı</h5>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-hover table-striped mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Kategori</th>
+                                    <th class="text-center">Kitap Sayısı</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (!Model.KategoriyeGoreKitapSayisi.Any())
+                                {
+                                    <tr><td colspan="2" class="text-center text-muted py-3">Henüz veri bulunmuyor.</td></tr>
+                                }
+                                else
+                                {
+                                    @foreach (var kategori in Model.KategoriyeGoreKitapSayisi)
+                                    {
+                                        <tr>
+                                            <td>@kategori.KategoriAdi</td>
+                                            <td class="text-center"><span class="badge bg-success">@kategori.KitapSayisi</span></td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- En Çok Kitabı Olan Yazarlar -->
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-header bg-warning text-dark">
+                    <h5 class="mb-0"><i class="fas fa-user-edit me-2"></i>En Çok Kitabı Olan Yazarlar (Top 10)</h5>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-hover table-striped mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Yazar</th>
+                                    <th class="text-center">Kitap Sayısı</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (!Model.EnCokKitabiOlanYazarlar.Any())
+                                {
+                                    <tr><td colspan="3" class="text-center text-muted py-3">Henüz veri bulunmuyor.</td></tr>
+                                }
+                                else
+                                {
+                                    int sira = 1;
+                                    foreach (var yazar in Model.EnCokKitabiOlanYazarlar)
+                                    {
+                                        <tr>
+                                            <td>@sira</td>
+                                            <td>@yazar.YazarAdi</td>
+                                            <td class="text-center"><span class="badge bg-warning text-dark">@yazar.KitapSayisi</span></td>
+                                        </tr>
+                                        sira++;
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

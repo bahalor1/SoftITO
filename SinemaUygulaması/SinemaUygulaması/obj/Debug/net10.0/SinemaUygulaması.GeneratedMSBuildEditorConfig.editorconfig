@@ -1,0 +1,128 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.EntryPointFilePath = 
+build_property.RootNamespace = SinemaUygulaması
+build_property.RootNamespace = SinemaUygulaması
+build_property.ProjectDir = C:\ITO\SinemaUygulaması\SinemaUygulaması\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\ITO\SinemaUygulaması\SinemaUygulaması
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Admin/Raporlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmFwb3JsYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Biletlers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZXRsZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Biletlers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZXRsZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Biletlers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZXRsZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Biletlers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZXRsZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Biletlers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZXRsZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Filmlers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWxlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Filmlers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWxlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Filmlers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWxlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Filmlers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWxlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Filmlers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWxlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Seanslars/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhbnNsYXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Seanslars/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhbnNsYXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Seanslars/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhbnNsYXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Seanslars/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhbnNsYXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Seanslars/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhbnNsYXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/SinemaUygulaması/SinemaUygulaması/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-v042pf1z6j

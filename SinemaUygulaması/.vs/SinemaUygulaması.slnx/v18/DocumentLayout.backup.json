@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ITO\\SinemaUygulamas\u0131\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|c:\\ito\\sinemauygulamas\u0131\\sinemauygulamas\u0131\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|solutionrelative:sinemauygulamas\u0131\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|c:\\ito\\sinemauygulamas\u0131\\sinemauygulamas\u0131\\views\\admin\\raporlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|solutionrelative:sinemauygulamas\u0131\\views\\admin\\raporlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|c:\\ito\\sinemauygulamas\u0131\\sinemauygulamas\u0131\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|solutionrelative:sinemauygulamas\u0131\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\ITO\\SinemaUygulamas\u0131\\SinemaUygulamas\u0131\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SinemaUygulamas\u0131\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\ITO\\SinemaUygulamas\u0131\\SinemaUygulamas\u0131\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SinemaUygulamas\u0131\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T10:39:22.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Raporlar.cshtml",
+              "DocumentMoniker": "C:\\ITO\\SinemaUygulamas\u0131\\SinemaUygulamas\u0131\\Views\\Admin\\Raporlar.cshtml",
+              "RelativeDocumentMoniker": "SinemaUygulamas\u0131\\Views\\Admin\\Raporlar.cshtml",
+              "ToolTip": "C:\\ITO\\SinemaUygulamas\u0131\\SinemaUygulamas\u0131\\Views\\Admin\\Raporlar.cshtml",
+              "RelativeToolTip": "SinemaUygulamas\u0131\\Views\\Admin\\Raporlar.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T10:01:44.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\ITO\\SinemaUygulamas\u0131\\SinemaUygulamas\u0131\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "SinemaUygulamas\u0131\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\ITO\\SinemaUygulamas\u0131\\SinemaUygulamas\u0131\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "SinemaUygulamas\u0131\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwFoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T09:59:29.163Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1170,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

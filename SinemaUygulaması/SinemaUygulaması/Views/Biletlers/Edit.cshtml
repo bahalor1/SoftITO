@@ -1,0 +1,52 @@
+@model SinemaUygulaması.Models.Biletler
+@{
+    ViewData["Title"] = "Bilet Düzenle";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-header bg-warning text-dark text-center py-4 rounded-top-4">
+                    <h3 class="mb-0 fw-bold">✏️ Bilet Bilgilerini Güncelle</h3>
+                </div>
+                <div class="card-body p-4 bg-white">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="form-group mb-4">
+                            <label asp-for="SeansId" class="form-label fw-bold text-secondary">Film ve Salon</label>
+                            <select asp-for="SeansId" class="form-select border-2" asp-items="ViewBag.SeansId"></select>
+                            <span asp-validation-for="SeansId" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label asp-for="MusteriAdSoyad" class="form-label fw-bold text-secondary">Müşteri Ad Soyad</label>
+                            <input asp-for="MusteriAdSoyad" class="form-control border-2" />
+                            <span asp-validation-for="MusteriAdSoyad" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label asp-for="KoltukNo" class="form-label fw-bold text-secondary">Koltuk No</label>
+                            <input asp-for="KoltukNo" class="form-control border-2" />
+                            <span asp-validation-for="KoltukNo" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-3 mt-5">
+                            <button type="submit" class="btn btn-warning btn-lg fw-bold shadow-sm">Değişiklikleri Kaydet 💾</button>
+                            <a asp-action="Index" class="btn btn-outline-secondary fw-bold">⬅️ Listeye Dön</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}

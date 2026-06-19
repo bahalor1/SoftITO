@@ -1,0 +1,37 @@
+@model IEnumerable<KütüphaneUygulaması.Models.Yazar>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>YAZARLAR</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-sm btn-warning">Yazar Ekle</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Yazar Adı</th>
+            <th>Yazdığı Kitaplar</th>
+            <th class="text-end">İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+           <td class="align-middle">@item.AdSoyad</td>
+            <td class="align-middle">
+                @foreach(var kitap in item.Kitaplar)
+                {
+                    <span class="badge bg-secondary me-1">@kitap.KitapAdi</span>
+                }
+            </td>
+            <td class="text-end">
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Düzenle</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

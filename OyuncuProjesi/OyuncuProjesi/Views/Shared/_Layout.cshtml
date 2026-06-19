@@ -1,0 +1,32 @@
+﻿    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - OyuncuProjesi</title>
+        <script type="importmap"></script>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/OyuncuProjesi.styles.css" asp-append-version="true" />
+    </head>
+<body style="background-color: #000; margin: 0;">
+        <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-black mb-3">
+                <div class="d-flex w-100 px-4 justify-content-evenly align-items-center pb-2 mt-2">
+                    <a href="/Home/Index" class="btn btn-primary text-dark ms-3">Kullanıcı Paneli</a>
+                    <h3 class="text-white">Kral Oyun</h3>
+                    <a href="/Gamer/Index" class="btn btn-primary text-dark ms-3">Admin Paneli</a>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
+    </html>

@@ -1,0 +1,60 @@
+@model SinemaUygulaması.Models.Seanslar
+
+@{
+    ViewData["Title"] = "Yeni Seans Ekle";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-header bg-success text-white text-center py-4 rounded-top-4">
+                    <h3 class="mb-0 fw-bold">➕ Yeni Seans Ekle</h3>
+                </div>
+
+                <div class="card-body p-4 bg-white">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="form-group mb-4">
+                            <label asp-for="FilmId" class="form-label fw-bold text-secondary">Hangi Film Oynayacak?</label>
+                            <select asp-for="FilmId" class="form-select border-2 py-2" asp-items="ViewBag.FilmId">
+                                <option value="">-- Lütfen Bir Film Seçin --</option>
+                            </select>
+                            <span asp-validation-for="FilmId" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label asp-for="SalonAdi" class="form-label fw-bold text-secondary">Salon İsmi</label>
+                            <input asp-for="SalonAdi" class="form-control border-2 py-2" placeholder="Örn: Salon 1" />
+                            <span asp-validation-for="SalonAdi" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label asp-for="BaslangicSaati" class="form-label fw-bold text-secondary">Gösterim Saati</label>
+                            <input asp-for="BaslangicSaati" class="form-control border-2 py-2" />
+                            <span asp-validation-for="BaslangicSaati" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-3 mt-5">
+                            <button type="submit" class="btn btn-success btn-lg fw-bold shadow-sm rounded-3">
+                                Seansı Oluştur ✅
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary fw-bold rounded-3">
+                                ⬅️ Vazgeç ve Listeye Dön
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

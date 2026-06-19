@@ -1,0 +1,351 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ITO\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\duyurular\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\duyurular\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\hizmetler\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\hizmetler\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\referanslar\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\referanslar\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\referanslar\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\referanslar\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\referanslar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\referanslar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\hizmetler\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\hizmetler\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\hizmetler\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\hizmetler\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\referanslar\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\referanslar\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\referanslar\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\referanslar\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\referanslar\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\referanslar\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\referanslar\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\referanslar\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\hizmetler\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\hizmetler\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\hizmetler\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\hizmetler\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\hizmetler\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\hizmetler\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\pages\\hizmetler\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\hizmetler\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\ito\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T12:44:07.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T12:41:18.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T12:41:16.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T12:41:14.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Duyurular\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Duyurular\\Index.cshtml",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Duyurular\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Duyurular\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T12:39:56.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Hizmetler\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Hizmetler\\Delete.cshtml",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Hizmetler\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Hizmetler\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T12:36:47.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Referanslar\\Delete.cshtml",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Referanslar\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T12:36:37.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Referanslar\\Index.cshtml.cs",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Index.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\Referanslar\\Index.cshtml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T12:34:48.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Referanslar\\Index.cshtml",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Referanslar\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBsAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T12:34:43.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Hizmetler\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Hizmetler\\Index.cshtml.cs",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Hizmetler\\Index.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\Hizmetler\\Index.cshtml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T12:33:00.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Hizmetler\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Hizmetler\\Index.cshtml",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Hizmetler\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Hizmetler\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T12:32:49.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Referanslar\\Edit.cshtml",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Referanslar\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T12:35:48.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Referanslar\\Edit.cshtml.cs",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Edit.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\Referanslar\\Edit.cshtml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T12:35:52.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Referanslar\\Create.cshtml",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Referanslar\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T12:35:14.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Referanslar\\Create.cshtml.cs",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Create.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\Referanslar\\Create.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T12:35:18.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Hizmetler\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Hizmetler\\Edit.cshtml.cs",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Hizmetler\\Edit.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\Hizmetler\\Edit.cshtml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T12:34:04.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Hizmetler\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Hizmetler\\Edit.cshtml",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Hizmetler\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Hizmetler\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T12:33:59.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Hizmetler\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Hizmetler\\Create.cshtml.cs",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Hizmetler\\Create.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\Hizmetler\\Create.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T12:33:32.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Hizmetler\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Hizmetler\\Create.cshtml",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Hizmetler\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Hizmetler\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T12:33:26.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\ITO\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-17T12:25:40.126Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1170,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

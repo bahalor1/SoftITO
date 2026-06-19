@@ -1,0 +1,32 @@
+@model IEnumerable<KütüphaneUygulaması.Models.Yorum>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>YORUMLAR</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-sm btn-warning">Yorum Ekle</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+           <th>Yorum</th>
+            <th>Kitap Adı</th>
+            <th class="text-end">İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+           <td class="align-middle">@item.Metin</td>
+            <td class="align-middle fw-bold text-primary">@item.Kitap.KitapAdi</td>
+            <td class="text-end">
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Düzenle</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

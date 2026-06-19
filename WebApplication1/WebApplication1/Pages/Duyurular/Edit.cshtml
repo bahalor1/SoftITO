@@ -1,0 +1,22 @@
+﻿@page "{id:int}"
+@model WebApplication1.Pages.Duyurular.EditModel
+@{
+    ViewData["Title"] = "Duyuru Düzenle";
+}
+
+<h2>Duyuru Düzenle</h2>
+
+<form method="post" class="w-50">
+    <input type="hidden" asp-for="GuncelDuyuru.Id" />
+
+    <div class="mb-3">
+        <label asp-for="GuncelDuyuru.Baslik" class="form-label">Başlık</label>
+        <input asp-for="GuncelDuyuru.Baslik" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label asp-for="GuncelDuyuru.Icerik" class="form-label">İçerik</label>
+        <textarea asp-for="GuncelDuyuru.Icerik" class="form-control" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Güncelle</button>
+    <a asp-page="Index" class="btn btn-secondary">İptal</a>
+</form>

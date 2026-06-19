@@ -1,0 +1,45 @@
+@model KütüphaneUygulaması.Models.Kitap
+
+@{
+    ViewData["Title"] = "Kitap Detayları";
+}
+
+<div class="card shadow-sm col-md-8 border-0 mt-4">
+    <div class="card-header bg-info text-white">
+        <h3 class="card-title mb-0">📘 Kitap Detayları</h3>
+    </div>
+    <div class="card-body">
+        <h4 class="text-primary mb-3">@Model.KitapAdi</h4>
+        <hr />
+        
+        <dl class="row mb-0">
+            <dt class="col-sm-3 fw-bold">Yazar:</dt>
+            <dd class="col-sm-9">@(Model.Yazar != null ? Model.Yazar.AdSoyad : "Belirtilmemiş")</dd>
+
+            <dt class="col-sm-3 fw-bold mt-2">Kategori:</dt>
+            <dd class="col-sm-9 mt-2">@(Model.Kategori != null ? Model.Kategori.KategoriAdi : "Belirtilmemiş")</dd>
+        </dl>
+
+        <div class="mt-4">
+            <h5 class="fw-bold">💬 Yorumlar</h5>
+            @if (Model.Yorumlar != null && Model.Yorumlar.Any())
+            {
+                <ul class="list-group list-group-flush">
+                    @foreach (var yorum in Model.Yorumlar)
+                    {
+                        <li class="list-group-item bg-light mb-1 rounded border-0">@yorum.Metin</li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p class="text-muted fst-italic">Bu kitaba henüz yorum yapılmamış.</p>
+            }
+        </div>
+
+        <div class="mt-4">
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning fw-bold">✏️ Düzenle</a>
+            <a asp-action="Index" class="btn btn-secondary ms-2">Listeye Dön</a>
+        </div>
+    </div>
+</div>

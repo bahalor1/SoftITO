@@ -1,0 +1,36 @@
+@model SinemaUygulaması.Models.Filmler
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h4>FİLM DETAYLARI</h4>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FilmAdi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FilmAdi)
+        </dd>
+    </dl>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tur)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tur)
+        </dd>
+    </dl>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SureDakika)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SureDakika)
+        </dd>
+</div>
+<div>
+    <br />
+    <a asp-action="Index">Back to List</a>
+</div>

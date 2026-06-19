@@ -1,0 +1,33 @@
+﻿@page
+@model WebApplication1.Pages.Referanslar.IndexModel
+@{
+    ViewData["Title"] = "Referanslar";
+}
+
+<h2>Referans Yönetimi</h2>
+<a asp-page="Create" class="btn btn-success mb-3">Yeni Referans Ekle</a>
+
+<table class="table table-bordered table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Müşteri Adı</th>
+            <th>Şirket</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ReferansListesi)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.MusteriAdi</td>
+                <td>@item.Sirket</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Düzenle</a>
+                    <a asp-page="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

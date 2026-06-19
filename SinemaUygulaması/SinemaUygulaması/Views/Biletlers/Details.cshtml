@@ -1,0 +1,43 @@
+@model SinemaUygulaması.Models.Biletler
+@{
+    ViewData["Title"] = "Bilet Detayları";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card shadow-lg border-0" style="border-radius: 20px; border-left: 10px dashed #0d6efd !important;">
+                <div class="card-header bg-dark text-white text-center py-3">
+                    <h4 class="mb-0 fw-bold">SİNEMA BİLETİ</h4>
+                </div>
+                <div class="card-body p-5 bg-light">
+                    <h3 class="fw-bold text-center text-primary mb-4">@Model.Seans?.Film?.FilmAdi</h3>
+
+                    <div class="d-flex justify-content-between mb-3 border-bottom pb-2">
+                        <span class="text-muted fw-bold">Müşteri:</span>
+                        <span class="fw-bold fs-5">@Model.MusteriAdSoyad</span>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-3 border-bottom pb-2">
+                        <span class="text-muted fw-bold">Salon:</span>
+                        <span class="fw-bold fs-5">@Model.Seans?.SalonAdi</span>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-3 border-bottom pb-2">
+                        <span class="text-muted fw-bold">Tarih / Saat:</span>
+                        <span class="fw-bold fs-5">@Model.Seans?.BaslangicSaati.ToString("dd.MM.yyyy HH:mm")</span>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-4">
+                        <span class="text-muted fw-bold align-self-center">KOLTUK NO:</span>
+                        <span class="badge bg-warning text-dark px-4 py-2 fs-3 rounded-pill shadow-sm">@Model.KoltukNo</span>
+                    </div>
+                </div>
+                <div class="card-footer bg-white border-0 text-center pb-4 pt-3">
+                    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary fw-bold px-4 me-2">Düzenle</a>
+                    <a asp-action="Index" class="btn btn-outline-secondary fw-bold px-4">Listeye Dön</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+@model IEnumerable<SinemaUygulaması.Models.Biletler>
+
+@{
+    ViewData["Title"] = "Biletler";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-3">
+        <h2 class="fw-bold text-dark m-0">Biletler</h2>
+        <a asp-action="Create" class="btn btn-success fw-bold shadow-sm"> Yeni Bilet Ekle </a>
+    </div>
+</div>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm border-0 bg-light">
+                <div class="card-header bg-primary text-white text-center py-3">
+                    <h5 class="card-title mb-0 fw-bold">@item.MusteriAdSoyad</h5>
+                </div>
+
+                <div class="card-body text-center">
+                    <p>
+                    <strong>Salon: </strong> @item.Seans?.SalonAdi
+                    </p>
+                   <p> 
+                    <strong>Koltuk Numarası: </strong>@item.KoltukNo
+                    </p>
+                     <p>    
+                    <strong>Film: </strong> @item.Seans?.Film?.FilmAdi
+                    </p>    
+                 </div>
+
+                <div class="card-footer bg-white border-0 text-center pb-2 pt-3">
+                    <div class="btn-group" role="group">
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info btn-sm fw-bold">İncele</a>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-warning btn-sm fw-bold">Düzenle</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger btn-sm fw-bold">Sil</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

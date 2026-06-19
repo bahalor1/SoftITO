@@ -1,0 +1,31 @@
+@model KütüphaneUygulaması.Models.Kitap
+
+@{
+    ViewData["Title"] = "Kitap Sil";
+}
+
+<div class="alert alert-danger mt-4">
+    <h3> Uyarı: Bu kitabı silmek istediğinize emin misiniz?</h3>
+    <p class="mb-0">Bu işlemi onaylarsanız kitap veritabanından kalıcı olarak silinecektir.</p>
+</div>
+
+<div class="card shadow-sm col-md-6 border-0">
+    <div class="card-body">
+        <h4 class="card-title text-primary mb-3"> @Model.KitapAdi</h4>
+        <hr />
+        
+        <dl class="row mb-0">
+            <dt class="col-sm-4 fw-bold">Yazar:</dt>
+            <dd class="col-sm-8">@(Model.Yazar != null ? Model.Yazar.AdSoyad : "Belirtilmemiş")</dd>
+
+            <dt class="col-sm-4 fw-bold mt-2">Kategori:</dt>
+            <dd class="col-sm-8 mt-2">@(Model.Kategori != null ? Model.Kategori.KategoriAdi : "Belirtilmemiş")</dd>
+        </dl>
+
+        <form asp-action="Delete" class="mt-4">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger fw-bold"> Evet, Kalıcı Olarak Sil</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">İptal ve Geri Dön</a>
+        </form>
+    </div>
+</div>

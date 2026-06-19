@@ -1,0 +1,20 @@
+﻿@page
+@model WebApplication1.Pages.Duyurular.CreateModel
+@{
+    ViewData["Title"] = "Yeni Duyuru";
+}
+
+<h2>Yeni Duyuru Ekle</h2>
+
+<form method="post" class="w-50">
+    <div class="mb-3">
+        <label asp-for="YeniDuyuru.Baslik" class="form-label">Başlık</label>
+        <input asp-for="YeniDuyuru.Baslik" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label asp-for="YeniDuyuru.Icerik" class="form-label">İçerik</label>
+        <textarea asp-for="YeniDuyuru.Icerik" class="form-control" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+    <a asp-page="Index" class="btn btn-secondary">İptal</a>
+</form>

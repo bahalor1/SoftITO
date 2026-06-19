@@ -1,0 +1,100 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApplication1
+build_property.RootNamespace = WebApplication1
+build_property.ProjectDir = C:\ITO\WebApplication1\WebApplication1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\ITO\WebApplication1\WebApplication1
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Duyurular/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHV5dXJ1bGFyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Duyurular/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHV5dXJ1bGFyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Duyurular/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHV5dXJ1bGFyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Duyurular/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHV5dXJ1bGFyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Hizmetler/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGl6bWV0bGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Hizmetler/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGl6bWV0bGVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Hizmetler/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGl6bWV0bGVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Hizmetler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGl6bWV0bGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Referanslar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVmZXJhbnNsYXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Referanslar/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVmZXJhbnNsYXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Referanslar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVmZXJhbnNsYXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Referanslar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVmZXJhbnNsYXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ITO/WebApplication1/WebApplication1/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-g6ltozs93r

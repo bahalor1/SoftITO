@@ -1,0 +1,72 @@
+﻿@model IEnumerable<KütüphaneUygulaması.Models.Kitap>
+
+<div class="text-center mb-4">
+    <h1 class="display-4">Hoş Geldiniz</h1>
+    <p class="lead">Kitaplarımızı aşağıdan inceleyebilirsiniz.</p>
+</div>
+<div class="row justify-content-center mb-5">
+    <div class="col-md-8"> <form asp-action="Index" method="get" class="d-flex gap-2 shadow-sm p-2 bg-white rounded">
+            
+            <select name="aramaTuru" class="form-select border-0 bg-light" style="width: 220px;">
+                <option value="KitapAdi"> Kitap Adına Göre</option>
+                <option value="Yazar"> Yazara Göre</option>
+                <option value="Kategori"> Kategoriye Göre</option>
+            </select>
+
+            <input type="text" name="aramaKelimesi" class="form-control border-0" placeholder="Aramak istediğiniz kelimeyi yazın..." />
+            
+            <button type="submit" class="btn btn-primary px-4">Ara</button>
+            <a asp-action="Index" class="btn btn-secondary">Temizle</a>
+        </form>
+    </div>
+</div>
+<br/> <br/>
+<div class="row">
+    @foreach (var kitap in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-md border-5">
+                <div class="card-body">
+                    <h5 class="card-title">Kitap Adı: @kitap.KitapAdi</h5>
+                    <h6 class="card-subtitle mb-2"> Yazar: @kitap.Yazar.AdSoyad</h6>
+                    <span class="badge bg-info mt-2">Kategori: @kitap.Kategori.KategoriAdi</span>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<br />
+<br />
+<div class="text-center mb-4">
+<h4 class="lead">Kitaplara yapılan yorumları aşağıdan inceleyebilirsiniz.</h4>
+<br />
+    <div class="row">
+        @foreach (var kitap in Model)
+        {
+            <div class="col-12 mb-4">
+                <div class="card shadow-sm border-2 bg-transparent rounded-3">
+                    <div class="card-body p-4">
+                        <h5 class="card-title fw-bold text-primary mb-3">Kitap Adı: @kitap.KitapAdi</h5>
+
+                        <h6 class="card-subtitle mb-2 fw-bold text-secondary">Yapılan Yorumlar:</h6>
+
+                        @if (kitap.Yorumlar != null && kitap.Yorumlar.Any())
+                        {
+                            <div class="list-group list-group-flush">
+                                @foreach (var yorum in kitap.Yorumlar)
+                                {
+                                    <div class="list-group-item bg-transparent text-dark border-0 ps-2 py-1">
+                                        <span class="text-warning"></span> @yorum.Metin
+                                    </div>
+                                }
+                            </div>
+                        }
+                        else
+                        {
+                            <p class="text-muted small mb-0 ps-2">Bu kitaba henüz yorum yapılmamış.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>

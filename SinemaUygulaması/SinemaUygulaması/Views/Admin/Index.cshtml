@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Yönetim Paneli";
+}
+<style>
+    body{
+        background-image: url("https://i.hizliresim.com/8s1o70e.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+
+</style>
+<div class="container mt-5">
+    <div class="row mb-4 text-center">
+        <div class="col-12">
+            <h1 class="fw-bold text-dark border-bottom pb-3">Sistem Yönetim Paneli</h1>
+            <p class="text-muted">Aşağıdaki modüllerden sistemdeki verileri ekleyebilir, silebilir veya düzenleyebilirsiniz.</p>
+        </div>
+    </div>
+    <br />
+    <div class="row text-center">
+        <div class="col-md-3 mb-0">
+            <div class="card shadow-lg border-0 rounded-4 h-100 bg-primary text-white">
+                <div class="card-body p-5">
+                    <h3 class="fw-bold mb-4">Film Yönetimi</h3>
+                    <br />
+                    <a asp-controller="Filmlers" asp-action="Index" class="btn btn-light btn-lg fw-bold text-primary w-100">Modüle Git </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-0">
+            <div class="card shadow-lg border-0 rounded-4 h-100 bg-success text-white">
+                <div class="card-body p-5">
+                    <h3 class="fw-bold mb-4">Seans Yönetimi</h3>
+                    <br />
+                    <a asp-controller="Seanslars" asp-action="Index" class="btn btn-light btn-lg fw-bold text-success w-100">Modüle Git </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-0">
+            <div class="card shadow-lg border-0 rounded-4 h-100 bg-warning text-white">
+                <div class="card-body p-5">
+                    <h3 class="fw-bold mb-4">Kesilen Biletler</h3>
+                    <br />
+                    <a asp-controller="Biletlers" asp-action="Index" class="btn btn-light btn-lg fw-bold text-warning w-100">Modüle Git </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-0">
+            <div class="card shadow-lg border-0 rounded-4 h-100 bg-info text-white">
+                <div class="card-body p-5">
+                    <h3 class="fw-bold mb-4">Raporlar</h3>
+                    <br />
+                    <a asp-controller="Admin" asp-action="Raporlar" class="btn btn-light btn-lg fw-bold text-info w-100">Raporları İncele </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

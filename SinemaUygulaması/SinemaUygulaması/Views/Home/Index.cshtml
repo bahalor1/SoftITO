@@ -1,0 +1,47 @@
+﻿@model IEnumerable<SinemaUygulaması.Models.Filmler>
+@{
+    ViewData["Title"] = "Vizyondaki Filmler";
+}
+<style>
+    body {
+        background-image: url('https://i.hizliresim.com/crotnxd.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+</style>
+<div class="container mt-5">
+    <div class="row justify-content-center text-center">
+        <div class="col-md-8">
+            <h2 class="display-4 fw-bold text-white text-lg-center mb-4"> Sinema Dünyasına Hoş Geldiniz</h2>
+
+            <p class="lead text-white mb-8">
+                En yeni filmleri keşfedin, salonlarımızdaki seansları inceleyin ve sadece birkaç saniye içinde koltuğunuzu ayırtın. İyi seyirler dileriz!
+            </p>
+            <br />
+            
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-lg border-0 rounded-4 overflow-hidden">
+                    <div class="card-header bg-primary text-white text-center py-3">
+                        <h5 class="card-title mb-0 fw-bold">@item.FilmAdi</h5>
+                    </div>
+                    <div class="card-body text-center bg-light">
+                        <span class="badge bg-secondary fs-6 mb-3">@item.Tur</span>
+                        <p class="card-text text-muted"><strong>Süre:</strong> @item.SureDakika Dakika</p>
+                    </div>
+                    <div class="card-footer bg-white border-0 text-center pb-4 pt-2">
+                        <a asp-controller="Biletlers" asp-action="Create" class="btn btn-primary rounded-5 btn-lg fw-bold shadow-md">
+                            Hemen Bilet Al
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

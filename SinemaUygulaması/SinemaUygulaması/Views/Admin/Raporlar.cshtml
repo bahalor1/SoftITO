@@ -1,0 +1,98 @@
+﻿@model IEnumerable<SinemaUygulaması.Controllers.RaporVerisi>
+@{
+    ViewData["Title"] = "Gelişmiş Raporlama";
+}
+<style>
+    body {
+        background-image: url('https://i.hizliresim.com/s7a3fj4.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+</style>
+<br />
+<div class="container mt-4">
+
+    <div class="card shadow-md border-3 bg-white my-4">
+        <div class="card-body p-4">
+            <form asp-action="Raporlar" method="get" class="row g-3 align-items-end">
+
+                <div class="col-md-4">
+                    <label class="form-label fw-bold text-secondary">İstediğiniz Raporu Seçin</label>
+                    <select name="raporId" class="form-select border-3">
+                        <option value="1" selected="@(ViewBag.SecilenRapor == 1)">1. Film Bazlı Toplam Satışlar</option>
+                        <option value="2" selected="@(ViewBag.SecilenRapor == 2)">2. Salon Bazlı Yoğunluk Raporu</option>
+                        <option value="3" selected="@(ViewBag.SecilenRapor == 3)">3. En Çok Bilet Alan İlk 5 Müşteri</option>
+                        <option value="4" selected="@(ViewBag.SecilenRapor == 4)">4. En Yoğun Seans Saatleri</option>
+                        <option value="5" selected="@(ViewBag.SecilenRapor == 5)">5. İki Tarih Arası Satış Analizi</option>
+                    </select>
+                </div>
+                
+                <div class="col-md-3 ">
+                    <label class="form-label fw-bold text-secondary">Başlangıç Tarihi (Rapor 5 için)</label>
+                    <input type="date" name="baslangicTarihi" class="form-control border-3" value="@ViewBag.Baslangic" />
+                </div>
+
+                <div class="col-md-3 ">
+                    <label class="form-label fw-bold text-secondary">Bitiş Tarihi (Rapor 5 için)</label>
+                    <input type="date" name="bitisTarihi" class="form-control border-3" value="@ViewBag.Bitis" />
+                </div>
+
+                <div class="col-md-2 d-grid">
+                    <button type="submit" class="btn btn-secondary fw-bold py-2 shadow-sm">
+                        Sorgula
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <br />
+    <div class="card shadow border-0 rounded-3 mt-4">
+        <div class="card-header bg-dark text-white py-3">
+            <h5 class="mb-0 fw-bold">@ViewBag.RaporBaslik</h5>
+        </div>
+        <div class="card-body p-0">
+            @if (Model != null && Model.Any())
+            {
+                <table class="table table-hover mb-0 text-center align-middle">
+                    <thead class="table-secondary">
+                        <tr>
+                            <th class="py-3">Sıra</th>
+                            <th class="py-3 text-start ps-5">@ViewBag.SutunAdi</th>
+                            <th class="py-3">Toplam Kesilen Bilet Adedi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int sira = 1;
+                        }
+                        @foreach (var satir in Model)
+                        {
+                            <tr>
+                                <td class="fw-bold text-muted">@sira</td>
+                                <td class="text-start ps-5 fw-bold text-dark">@satir.Etiket</td>
+                                <td>
+                                    <span class="badge bg-primary fs-6 px-3 py-2">@satir.Deger Adet</span>
+                                </td>
+                            </tr>
+                            sira++;
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <div class="text-center p-5">
+                    <p class="text-muted mb-0">Aradığınız kriterlere uygun herhangi bir veri bulunamadı.</p>
+                </div>
+            }
+        </div>
+    </div>
+    <br />
+    <div class="mt-4">
+        <a asp-controller="Admin" asp-action="Index" class="btn btn-secondary fw-bold">
+            Panel Ana Sayfasına Dön
+        </a>
+    </div>
+</div>
