@@ -100,7 +100,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\Pages\\Index.cshtml",
               "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml",
               "RelativeToolTip": "WebApplication1\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-17T12:44:07.196Z",
               "EditorCaption": ""
@@ -113,9 +113,10 @@
               "RelativeDocumentMoniker": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T12:41:18.613Z"
+              "WhenOpened": "2026-06-17T12:41:18.613Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -127,7 +128,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T12:41:16.148Z"
+              "WhenOpened": "2026-06-17T12:41:16.148Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -139,7 +141,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T12:41:14.898Z"
+              "WhenOpened": "2026-06-17T12:41:14.898Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -149,9 +152,10 @@
               "RelativeDocumentMoniker": "WebApplication1\\Pages\\Duyurular\\Index.cshtml",
               "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Duyurular\\Index.cshtml",
               "RelativeToolTip": "WebApplication1\\Pages\\Duyurular\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T12:39:56.503Z"
+              "WhenOpened": "2026-06-17T12:39:56.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -163,7 +167,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\Hizmetler\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T12:36:47.713Z"
+              "WhenOpened": "2026-06-17T12:36:47.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -175,7 +180,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\Referanslar\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T12:36:37.808Z"
+              "WhenOpened": "2026-06-17T12:36:37.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -185,9 +191,10 @@
               "RelativeDocumentMoniker": "WebApplication1\\Pages\\Referanslar\\Index.cshtml.cs",
               "ToolTip": "C:\\ITO\\WebApplication1\\WebApplication1\\Pages\\Referanslar\\Index.cshtml.cs",
               "RelativeToolTip": "WebApplication1\\Pages\\Referanslar\\Index.cshtml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T12:34:48.347Z"
+              "WhenOpened": "2026-06-17T12:34:48.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -199,7 +206,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\Referanslar\\Index.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAAAowBsAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T12:34:43.299Z"
+              "WhenOpened": "2026-06-17T12:34:43.299Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -211,7 +219,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\Hizmetler\\Index.cshtml.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowCsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T12:33:00.756Z"
+              "WhenOpened": "2026-06-17T12:33:00.756Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -223,7 +232,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\Hizmetler\\Index.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAAAuwBsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T12:32:49.027Z"
+              "WhenOpened": "2026-06-17T12:32:49.027Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -235,7 +245,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\Referanslar\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T12:35:48.833Z"
+              "WhenOpened": "2026-06-17T12:35:48.833Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -247,7 +258,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\Referanslar\\Edit.cshtml.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAowD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T12:35:52.858Z"
+              "WhenOpened": "2026-06-17T12:35:52.858Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -259,7 +271,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\Referanslar\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T12:35:14.261Z"
+              "WhenOpened": "2026-06-17T12:35:14.261Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -271,7 +284,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\Referanslar\\Create.cshtml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAowCYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T12:35:18.618Z"
+              "WhenOpened": "2026-06-17T12:35:18.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -283,7 +297,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\Hizmetler\\Edit.cshtml.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAowD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T12:34:04.336Z"
+              "WhenOpened": "2026-06-17T12:34:04.336Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -295,7 +310,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\Hizmetler\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T12:33:59.163Z"
+              "WhenOpened": "2026-06-17T12:33:59.163Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -307,7 +323,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\Hizmetler\\Create.cshtml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAowCYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T12:33:32.222Z"
+              "WhenOpened": "2026-06-17T12:33:32.222Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -319,7 +336,8 @@
               "RelativeToolTip": "WebApplication1\\Pages\\Hizmetler\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T12:33:26.384Z"
+              "WhenOpened": "2026-06-17T12:33:26.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -331,7 +349,8 @@
               "RelativeToolTip": "WebApplication1\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-17T12:25:40.126Z"
+              "WhenOpened": "2026-06-17T12:25:40.126Z",
+              "EditorCaption": ""
             }
           ]
         },

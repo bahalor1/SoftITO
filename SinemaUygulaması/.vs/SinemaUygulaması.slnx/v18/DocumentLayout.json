@@ -3,16 +3,27 @@
   "WorkspaceRootPath": "C:\\ITO\\SinemaUygulamas\u0131\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|c:\\ito\\sinemauygulamas\u0131\\sinemauygulamas\u0131\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|solutionrelative:sinemauygulamas\u0131\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|c:\\ito\\sinemauygulamas\u0131\\sinemauygulamas\u0131\\views\\admin\\raporlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|solutionrelative:sinemauygulamas\u0131\\views\\admin\\raporlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|c:\\ito\\sinemauygulamas\u0131\\sinemauygulamas\u0131\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|solutionrelative:sinemauygulamas\u0131\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|c:\\ito\\sinemauygulamas\u0131\\sinemauygulamas\u0131\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|solutionrelative:sinemauygulamas\u0131\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|c:\\ito\\sinemauygulamas\u0131\\sinemauygulamas\u0131\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|solutionrelative:sinemauygulamas\u0131\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|c:\\ito\\sinemauygulamas\u0131\\sinemauygulamas\u0131\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C932074-FE26-5BF0-32A4-1D7478DEBF71}|SinemaUygulamas\u0131\\SinemaUygulamas\u0131.csproj|solutionrelative:sinemauygulamas\u0131\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bahal\\.nuget\\packages\\epplus\\8.6.1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +33,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ITO\\SinemaUygulamas\u0131\\SinemaUygulamas\u0131\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SinemaUygulamas\u0131\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\ITO\\SinemaUygulamas\u0131\\SinemaUygulamas\u0131\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SinemaUygulamas\u0131\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T13:07:42.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ITO\\SinemaUygulamas\u0131\\SinemaUygulamas\u0131\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "SinemaUygulamas\u0131\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\ITO\\SinemaUygulamas\u0131\\SinemaUygulamas\u0131\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "SinemaUygulamas\u0131\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T13:07:19.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\bahal\\.nuget\\packages\\epplus\\8.6.1\\readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\Users\\bahal\\.nuget\\packages\\epplus\\8.6.1\\readme.txt",
+              "ToolTip": "C:\\Users\\bahal\\.nuget\\packages\\epplus\\8.6.1\\readme.txt",
+              "RelativeToolTip": "..\\..\\Users\\bahal\\.nuget\\packages\\epplus\\8.6.1\\readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-06-19T13:03:46.634Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -34,29 +84,31 @@
               "RelativeToolTip": "SinemaUygulamas\u0131\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T10:39:22.013Z"
+              "WhenOpened": "2026-06-16T10:39:22.013Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Raporlar.cshtml",
               "DocumentMoniker": "C:\\ITO\\SinemaUygulamas\u0131\\SinemaUygulamas\u0131\\Views\\Admin\\Raporlar.cshtml",
               "RelativeDocumentMoniker": "SinemaUygulamas\u0131\\Views\\Admin\\Raporlar.cshtml",
               "ToolTip": "C:\\ITO\\SinemaUygulamas\u0131\\SinemaUygulamas\u0131\\Views\\Admin\\Raporlar.cshtml",
               "RelativeToolTip": "SinemaUygulamas\u0131\\Views\\Admin\\Raporlar.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEcAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-16T10:01:44.613Z"
+              "WhenOpened": "2026-06-16T10:01:44.613Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\ITO\\SinemaUygulamas\u0131\\SinemaUygulamas\u0131\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "SinemaUygulamas\u0131\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\ITO\\SinemaUygulamas\u0131\\SinemaUygulamas\u0131\\Controllers\\AdminController.cs",
               "RelativeToolTip": "SinemaUygulamas\u0131\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAkwFoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAYwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-16T09:59:29.163Z",
               "EditorCaption": ""

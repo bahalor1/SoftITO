@@ -17,6 +17,16 @@
         <div class="card-body p-4">
             <form asp-action="Raporlar" method="get" class="row g-3 align-items-end">
 
+                <div class="mb-3 d-flex gap-2">
+                    <a href="/Admin/ExportToPdf" class="btn btn-danger">
+                        PDF Olarak İndir
+                    </a>
+
+                    <a href="/Admin/ExportToExcel" class="btn btn-success">
+                        Excel Olarak İndir
+                    </a>
+                </div>
+
                 <div class="col-md-4">
                     <label class="form-label fw-bold text-secondary">İstediğiniz Raporu Seçin</label>
                     <select name="raporId" class="form-select border-3">

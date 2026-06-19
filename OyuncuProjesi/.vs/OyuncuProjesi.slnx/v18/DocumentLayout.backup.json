@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\ITO\\OyuncuProjesi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FAE064D-85DC-0C9D-3193-A7F0A1DB06E5}|OyuncuProjesi\\OyuncuProjesi.csproj|c:\\ito\\oyuncuprojesi\\oyuncuprojesi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FAE064D-85DC-0C9D-3193-A7F0A1DB06E5}|OyuncuProjesi\\OyuncuProjesi.csproj|solutionrelative:oyuncuprojesi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8FAE064D-85DC-0C9D-3193-A7F0A1DB06E5}|OyuncuProjesi\\OyuncuProjesi.csproj|c:\\ito\\oyuncuprojesi\\oyuncuprojesi\\controllers\\gamercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FAE064D-85DC-0C9D-3193-A7F0A1DB06E5}|OyuncuProjesi\\OyuncuProjesi.csproj|solutionrelative:oyuncuprojesi\\controllers\\gamercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FAE064D-85DC-0C9D-3193-A7F0A1DB06E5}|OyuncuProjesi\\OyuncuProjesi.csproj|c:\\ito\\oyuncuprojesi\\oyuncuprojesi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FAE064D-85DC-0C9D-3193-A7F0A1DB06E5}|OyuncuProjesi\\OyuncuProjesi.csproj|solutionrelative:oyuncuprojesi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8FAE064D-85DC-0C9D-3193-A7F0A1DB06E5}|OyuncuProjesi\\OyuncuProjesi.csproj|c:\\ito\\oyuncuprojesi\\oyuncuprojesi\\views\\gamer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FAE064D-85DC-0C9D-3193-A7F0A1DB06E5}|OyuncuProjesi\\OyuncuProjesi.csproj|solutionrelative:oyuncuprojesi\\views\\gamer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FAE064D-85DC-0C9D-3193-A7F0A1DB06E5}|OyuncuProjesi\\OyuncuProjesi.csproj|c:\\ito\\oyuncuprojesi\\oyuncuprojesi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FAE064D-85DC-0C9D-3193-A7F0A1DB06E5}|OyuncuProjesi\\OyuncuProjesi.csproj|solutionrelative:oyuncuprojesi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,25 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\ITO\\OyuncuProjesi\\OyuncuProjesi\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "OyuncuProjesi\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\ITO\\OyuncuProjesi\\OyuncuProjesi\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "OyuncuProjesi\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwA0AAABbAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ITO\\OyuncuProjesi\\OyuncuProjesi\\Views\\Gamer\\Index.cshtml",
+              "RelativeDocumentMoniker": "OyuncuProjesi\\Views\\Gamer\\Index.cshtml",
+              "ToolTip": "C:\\ITO\\OyuncuProjesi\\OyuncuProjesi\\Views\\Gamer\\Index.cshtml",
+              "RelativeToolTip": "OyuncuProjesi\\Views\\Gamer\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-19T08:36:42.727Z",
+              "WhenOpened": "2026-06-19T12:53:39.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GamerController.cs",
+              "DocumentMoniker": "C:\\ITO\\OyuncuProjesi\\OyuncuProjesi\\Controllers\\GamerController.cs",
+              "RelativeDocumentMoniker": "OyuncuProjesi\\Controllers\\GamerController.cs",
+              "ToolTip": "C:\\ITO\\OyuncuProjesi\\OyuncuProjesi\\Controllers\\GamerController.cs",
+              "RelativeToolTip": "OyuncuProjesi\\Controllers\\GamerController.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAewJcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T12:50:50.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\ITO\\OyuncuProjesi\\OyuncuProjesi\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "OyuncuProjesi\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\ITO\\OyuncuProjesi\\OyuncuProjesi\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "OyuncuProjesi\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAUwC0AAABXAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-18T12:39:12.724Z",
               "EditorCaption": ""

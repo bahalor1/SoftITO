@@ -6,6 +6,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using OfficeOpenXml;
+using OfficeOpenXml.Style;
+using QuestPDF.Fluent;
+using QuestPDF.Helpers;
+using QuestPDF.Infrastructure;
+using System;
+using System.Linq;
 
 namespace SinemaUygulaması.Controllers
 {
@@ -27,6 +34,104 @@ namespace SinemaUygulaması.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+        public IActionResult ExportToPdf()
+        {
+            // QuestPDF Lisansı
+            QuestPDF.Settings.License = LicenseType.Community;
+
+            // HATA DÜZELTİLDİ: Artık senin projendeki Biletler tablosu çekiliyor
+            var veriListesi = _context.Biletlers.ToList();
+
+            var pdfDocument = Document.Create(container =>
+            {
+                container.Page(page =>
+                {
+                    page.Size(PageSizes.A4);
+                    page.Margin(2, Unit.Centimetre);
+                    page.PageColor(Colors.White);
+                    page.DefaultTextStyle(x => x.FontSize(11).FontFamily("Arial"));
+
+                    // Rapor Başlığı
+                    page.Header()
+                        .Text("Bilet Satış Raporu") // Başlık güncellendi
+                        .SemiBold().FontSize(20).FontColor(Colors.Blue.Medium);
+
+                    // Tablo Yapısı
+                    page.Content()
+                        .PaddingTop(1, Unit.Centimetre)
+                        .Table(table =>
+                        {
+                            // 2 Sütunluk yapı oluşturduk
+                            table.ColumnsDefinition(columns =>
+                            {
+                                columns.ConstantColumn(50);  // ID Sütunu
+                                columns.RelativeColumn();    // Müşteri Adı Sütunu
+                            });
+
+                            // Tablo Başlık İsimleri
+                            table.Header(header =>
+                            {
+                                header.Cell().Background(Colors.Grey.Lighten2).Padding(5).Text("Bilet ID").Bold();
+                                header.Cell().Background(Colors.Grey.Lighten2).Padding(5).Text("Müşteri Ad Soyad").Bold();
+                            });
+
+                            // HATA DÜZELTİLDİ: Senin Modelindeki Sütunlar (Id ve MusteriAdSoyad) eklendi
+                            foreach (var item in veriListesi)
+                            {
+                                table.Cell().BorderBottom(1).BorderColor(Colors.Grey.Lighten3).Padding(5).Text(item.Id.ToString());
+                                table.Cell().BorderBottom(1).BorderColor(Colors.Grey.Lighten3).Padding(5).Text(item.MusteriAdSoyad);
+                            }
+                        });
+
+                    page.Footer().AlignCenter().Text(x => { x.Span("Sayfa "); x.CurrentPageNumber(); });
+                });
+            });
+
+            var pdfBytes = pdfDocument.GeneratePdf();
+            return File(pdfBytes, "application/pdf", $"Bilet_Raporu_{DateTime.Now:yyyyMMdd}.pdf");
+        }
+
+        public IActionResult ExportToExcel()
+        {
+            ExcelPackage.License.SetNonCommercialPersonal("Sinema Uygulamasi");
+
+            // HATA DÜZELTİLDİ: Senin projendeki Biletler tablosu
+            var veriListesi = _context.Biletlers.ToList();
+
+            using (var package = new ExcelPackage())
+            {
+                var worksheet = package.Workbook.Worksheets.Add("Bilet Listesi");
+
+                // Başlıklar Güncellendi
+                worksheet.Cells[1, 1].Value = "Bilet ID";
+                worksheet.Cells[1, 2].Value = "Müşteri Ad Soyad";
+
+                // Stil kısmı 2 sütuna göre ayarlandı
+                using (var range = worksheet.Cells[1, 1, 1, 2])
+                {
+                    range.Style.Font.Bold = true;
+                    range.Style.Fill.PatternType = ExcelFillStyle.Solid;
+                    range.Style.Fill.BackgroundColor.SetColor(System.Drawing.Color.FromArgb(41, 128, 185));
+                    range.Style.Font.Color.SetColor(System.Drawing.Color.White);
+                    range.Style.HorizontalAlignment = ExcelHorizontalAlignment.Center;
+                }
+
+                int rowNumber = 2;
+                foreach (var item in veriListesi)
+                {
+                    // HATA DÜZELTİLDİ: Senin modelinden gelen veriler eklendi
+                    worksheet.Cells[rowNumber, 1].Value = item.Id;
+                    worksheet.Cells[rowNumber, 2].Value = item.MusteriAdSoyad;
+                    rowNumber++;
+                }
+
+                worksheet.Cells[worksheet.Dimension.Address].AutoFitColumns();
+
+                var fileBytes = package.GetAsByteArray();
+                return File(fileBytes, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", $"Bilet_Raporu_{DateTime.Now:yyyyMMdd}.xlsx");
+            }
         }
 
         public async Task<IActionResult> Raporlar(int? raporId, DateTime? baslangicTarihi, DateTime? bitisTarihi)
@@ -108,5 +213,7 @@ namespace SinemaUygulaması.Controllers
 
             return View(raporSonuclari);
         }
+
+
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SinemaUygulaması")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f34b2e908ddfd0668e2ee9d89f11620a046149e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SinemaUygulaması")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SinemaUygulaması")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
